@@ -1,4 +1,4 @@
-import { ObjectKeyType, ObjectType } from './object-util.type';
+import type { ObjectKeyType, ObjectType } from './object-util.type';
 
 /** @deprecated use JSON.stringify instead */
 export function serialize(obj: any): string | null {

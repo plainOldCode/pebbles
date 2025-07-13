@@ -1,5 +1,5 @@
 import { LoggerFactory } from '../logger';
-import { DatePropertyType, DateType, TimeZoneType } from './date-util-base.type';
+import type { DatePropertyType, DateType, TimeZoneType } from './date-util-base.type';
 import {
   ADULT_AGE_DEFAULT,
   DATE_FORMAT,

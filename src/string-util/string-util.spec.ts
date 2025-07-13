@@ -11,7 +11,7 @@ import {
   splitString,
   splitTags,
 } from './string-util';
-import { TemplateOpts } from './string-util.interface';
+import type { TemplateOpts } from './string-util.interface';
 
 describe('maskPrivacy', () => {
   it('should return original parameter when nothing is to be masked', () => {
