@@ -1,7 +1,15 @@
-module.exports = {
+export default {
   coverageDirectory: '../coverage',
-  preset: 'ts-jest',
+  preset: 'ts-jest/presets/default-esm',
   rootDir: './src',
   testEnvironment: 'node',
-  transform: { '^.+\\.(ts|tsx)$': 'ts-jest' },
+  extensionsToTreatAsEsm: ['.ts'],
+  transform: { 
+    '^.+\\.(ts|tsx)$': ['ts-jest', {
+      useESM: true,
+      tsconfig: {
+        verbatimModuleSyntax: false
+      }
+    }] 
+  },
 };

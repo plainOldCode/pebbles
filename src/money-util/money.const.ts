@@ -1,4 +1,4 @@
-import { Currency, LocaleMap } from './money.type';
+import type { Currency, LocaleMap } from './money.type';
 
 export const LOCALES: LocaleMap<Currency> = {
   USD: 'en-US',

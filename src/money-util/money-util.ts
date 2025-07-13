@@ -1,5 +1,5 @@
 import { LOCALES } from './money.const';
-import { ConvertLocalCurrencyFormatOpts } from './money.type';
+import type { ConvertLocalCurrencyFormatOpts } from './money.type';
 
 export function convertLocalCurrencyFormat(
   num: number,

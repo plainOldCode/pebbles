@@ -1,5 +1,5 @@
 import { decimalRoundDown, decimalRoundUp } from '../number-util';
-import { TimeSection } from './time-range.interface';
+import type { TimeSection } from './time-range.interface';
 
 /**
  * @params loadSection: TimeSection 배열

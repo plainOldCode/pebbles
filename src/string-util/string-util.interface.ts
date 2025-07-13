@@ -1,4 +1,4 @@
-import { ObjectType } from '../object-util';
+import type { ObjectType } from '../object-util';
 
 export interface Tag {
   text: string;

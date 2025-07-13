@@ -1,6 +1,6 @@
 import { getRandomInt } from '../misc-util';
 import { TimeRange } from './time-range';
-import { TimeSection } from './time-range.interface';
+import type { TimeSection } from './time-range.interface';
 
 describe('TimeRange Util', () => {
   describe('time-range module', () => {

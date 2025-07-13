@@ -1,4 +1,4 @@
-import { LocaleType, TimeZoneType } from './date-util-base.type';
+import type { LocaleType, TimeZoneType } from './date-util-base.type';
 
 export interface DatetimeProperties {
   year: number;

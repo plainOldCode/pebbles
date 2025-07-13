@@ -10,7 +10,7 @@ import {
   pick,
   serialize,
 } from './object-util';
-import { ObjectType } from './object-util.type';
+import type { ObjectType } from './object-util.type';
 
 describe('serialize', () => {
   it('should return string', () => {
